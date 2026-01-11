@@ -7,7 +7,7 @@ The key idea is **induction over human behavior**: instead of assuming perfectly
 1) **Probability of winning** (rank-based objective), or  
 2) **Expected score** (payoff-based objective)
 
-A short write-up of the approach, assumptions, and results is included as **`micropaper.pdf`**. :contentReference[oaicite:0]{index=0}
+A short write-up of the approach, assumptions, and results is included as **`micropaper.pdf`**.
 
 ---
 
