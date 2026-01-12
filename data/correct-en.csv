@@ -1,0 +1,135 @@
+number,reason
+9,"I assume everyone will pick a number between 1–10 so as not to make the result negative. Others (if they also want to maximize their score) will likely choose 8 or 9, maybe some 10. If a crazy person picks 100, it doesn’t matter much because the difference between -400 and -450 is relatively small percentage-wise. If no one goes negative, the number I pick matters. Assuming the average number will be 5 is unwise because others will also try to maximize their score, so they’ll pick 8–10. My choice is between 8 and 9; I take more risk (9) because I don’t want to think about non-integer numbers."
+6.2001,Because everyone will likely pick above 11.
+0,"Choosing zero, if legal, guarantees 0 points. I assume everyone knows the game rules and will try to lower the total, so zero always gives 0. Considering negative numbers only makes sense if everyone picks simultaneously; otherwise, players could adjust their numbers to reduce my score."
+8.33,Nash equilibrium.
+8,"50-8*5=10, 10*8… It’s close to x^6, which is usually a good optimization solution. If others play poorly, I can’t do much anyway."
+10,"Statistically, this will work fine."
+5,Any higher number increases the chance of losing.
+1,"If numbers go negative, everyone gets a high multiplier but a low score, except me."
+8,"It doesn’t subtract too much, but multiplying gives a significant positive result."
+6,"Mathematically, the optimal choice for everyone is 5 (maximum of y = (50-5x)*x). Since 50/5=10 and others might pick closer to 10, I slightly raise my number."
+9,"It’s small enough that we probably won’t go below 1 (assuming others don’t pick very large numbers) but not the smallest, so the final product will be higher."
+2,A larger number increases the likelihood of a negative result.
+6,"There’s a risk that the sum of all five numbers exceeds 50. Then each number multiplies a negative number, so having a smaller number is advantageous. I also want to contribute to exceeding 50, hence 6."
+-1,"High chance the sum of the other 4 numbers exceeds 50. Then choosing a positive number leaves a negative product. Using a negative number could work, but we lack info about the distribution or whether others play optimally."
+11,"If all chose the same “optimal” number for the group, it would be 5: 5*(50-5*5)=125. I assume some will be greedy and pick slightly higher. The total of the other four might increase by 5. Then my best choice would be 12 (12*(50-25-12)=156). For safety, I take 11. In repeated games, assuming players could adjust to each other, I’d always pick 5. Recommended: check Axelrod’s The Evolution of Cooperation and Veritasium video."
+8,"With rational players, this is the best option to maximize the score."
+10,"If the average number is above 10, I won’t come last. If others are cautious and pick below 10, I get the highest positive score."
+5,"Assuming all players act logically, this number allows everyone to reach the highest possible score."
+5,Maximizes the score against rational opponents.
+-2,"Players trying to maximize their score may pick high numbers, leading to a negative product. The best option then is a negative number, which multiplied by another negative number gives the highest result."
+0,"The safest option because it guarantees no negative score, regardless of others’ numbers."
+0,"Zero guarantees my SUM is 0, the only case where others’ numbers don’t affect my result, and there’s a high chance the subtraction result would be negative while others pick positive, so I win."
+5,"If everyone picks this number, the sum will be relatively large, and your score will also be relatively high."
+-0.00001,"The optimal choice boils down to estimating if 50-x₂-…-x₅ > 0. Most participants pick between 5–10. If all do, the best choice is in the upper range, e.g., 7–10. A bullish player picking above 10 could make the sum negative, so choosing an extremely small number like -0.00001 flips my score positive. If I can’t read others and play multiple rounds with random people, I’d choose a middle number, like 5."
+-5,"I assume many participants will pick positive numbers or meme numbers like 2137, 420, making the subtraction result negative. Multiplying gives me a positive score."
+-5,"I expect the sum of others’ numbers will exceed 50, making negative times negative = positive, a free win."
+-2,"If the sum goes below zero, my score is positive. I don’t want too negative a number to accidentally create a positive sum but want to potentially beat someone who picks -1. Choosing a low positive number could yield a lower score than others. Negative numbers might not be widely considered."
+5,"I picked 5 because if everyone picks the same, we all get the optimal score. Slight deviations by others won’t change the average sum significantly."
+-10,"High chance the sum exceeds 50, so my score will be one of the few positives. I pick a high negative to minimize losses."
+9,"If others pick 1–8, my score will be highest."
+1,"With five players, high chance subtraction gives negative S. Multiplying by 1 decreases the reduction least."
+0,"Assuming all participants are fully rational and share the same assumptions, picking 8 or 9 is reasonable. But without such assumptions, human behavior, trolling, or sociopathic repeated entries could make 0 the safest choice."
+1,"If S is negative, I’ll have the least negative number."
+8.33,Maximizes the product.
+-1,"If people are greedy (and they are), S becomes negative, so my result is positive."
+0,Fifty-fifty whether S will be positive or negative.
+1,"Probable that in a group of 5, some pick high numbers, making S negative."
+10,"I like 10; no one will pick high to avoid zeroing out, so I can."
+25,"Without considering others’ strategies, maximizing x₁*(50-x₁) happens at x₁=25."
+-1,"If the sum of others exceeds 50, S becomes negative. Multiplying by my negative number gives a positive score. I hope no one thinks outside the box and everyone picks greedily."
+7,Strategy for a tie if everyone picks 10; there’s a reserve for someone picking 20. No clear formula; depends on who you play with.
+10,"Maximum score occurs if everyone picks 5, but likely they won’t. If the sum exceeds 50, the smallest number wins, requiring at least one number >10. I won’t come last. If the sum ≤50, the largest number wins; at least one number <10 ensures I won’t be last. Everyone picks 10 → tie."
+8,"Assume each person chooses a strategy with an expected value x. If someone doesn’t randomize, we can treat it as if they did (probability 1). Then, each player’s score = evS * x = (50-5x)*x. If evS > x, players will increase x; if evS < x, they will decrease x. The only stable situation is evS = x, the Nash equilibrium. Solving 50-5x = x → x = 50/6 ≈ 8.33. I pick a random number close to this, e.g., 8."
+10,"I initially miscounted, assuming 4 players. Logical sequence: giving more can lead to negative results; giving less gives others space for higher gains than mine."
+5,"If everyone used this strategy, the result would be highest (0–50 range assumed)."
+1,"If others pick numbers higher than mine and the result goes negative, multiplying by X1, X2… gives me the least negative, i.e., the highest in that scenario."
+0,I assume players don’t implement strategies but act according to game theory. Choosing x=0 ensures a score of 0 regardless of others’ greed.
+0,"Score ""0"" is better than any negative result if others pick high numbers making S<0."
+8.33,"If everyone picks 8.33, we are at Nash equilibrium."
+9,"I chose 9 because the final score is x*S, not just maximizing S. Very low numbers (e.g., 1) leave high S but small multiplier; high numbers reduce S too much. With simultaneous secret choices, I don’t know the sum. Mathematically, the best number depends on S, but rational players usually pick around 8–9. 9 balances math and typical social experiment behavior."
+15,I chose 15 because it maximizes my product given a moderate sum of others’ numbers without large risk.
+8.33,Nash equilibrium.
+7,"People are greedy; some pick high numbers hoping others fold. Rational players pick ~10, making S negative. I pick a moderately small number to minimize loss while keeping S negative."
+8.33333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333,Mathematics.
+-1,"If the sum exceeds 50, great because my negative number times positive S gives me a win. Other scenarios can be ignored since they don’t result positively."
+8,Closest to Nash equilibrium.
+5,"If all participants think rationally and want to maximize score, symmetry suggests everyone picks the same number. My score: x*(50-5x). Maximum occurs at x=5. Any deviation lowers score if others are logical."
+0,"I assume everyone picks high numbers, making the subtraction negative → negative product → my score 0."
+0,"Others may pick very high numbers, making S negative. Game description doesn’t clarify allowed numbers (any real number or non-negative only)?"
+5,"I picked 5 because choosing too high gives a large sum → small S → lower product; too low → small x → lower product. 5 balances S and x, giving 125 if everyone picks 5."
+5,5 is a neutral number; it neither minimizes my loss nor maximizes gain.
+12,"I expect the other players to pick numbers in a safe range, around 6–9."
+1,"There’s no number that always beats others after multiplying by S; the best bet is others picking similar signs with values >10, then 1 wins, so I assume this is safest without knowing others’ choices."
+5,"Ah, beautiful mind and Nash…"
+5,"I assume everyone will try for the highest number. S can go below 0, which is risky. With five players, 50/5=10, so I’d target 0–10. Hard to predict in the first round."
+8,"The higher I pick, the larger the multiplier, but I avoid 9 to not be too greedy."
+5,Midpoint between 0 and 10.
+0,Others may pick very high numbers → S negative. Unclear allowed range: any real or only non-negative numbers.
+11.1,"I expect most people will play safely (1–9) to avoid negative S. With positive S, I must pick the highest number. I leave a small margin above 10 to outpace similar “clever” players; decimals help in tie-breaking."
+1,"If I and others pick 1, the final score is closest to the starting number (assuming integer choices)."
+-3,"Someone might pick 30 to get a huge multiplier, risking S going negative."
+-5,"I initially wanted the highest number, but realized the result would be negative. Negative results are the biggest problem. So I chose -5, assuming the total may exceed 50 → negative result → multiplied by my negative → positive. Didn’t go lower than -5 to avoid overshooting."
+-1,"If others’ sum exceeds 51 and no one picks below -1, only my choice gives a positive result. Reducing x1 to -100 would raise the minimum sum, less likely to exceed 50."
+10,Because 50/5 = 10.
+-2,I expect most to pick positive numbers; giving -2 may outperform those who pick -1.
+5,"Assuming all players are rational with the same goal, each will pick the same number."
+11,I hope the number doesn’t exceed 50. I avoid -1 to stay within the linear scoring function.
+5,This is the result of calculating Nash equilibrium and assuming everyone else uses it too.
+5,"Any player can harm others by picking high numbers. If expected, giving 0 maximizes my score. Assuming optimal play without info, maximum occurs at x=5."
+10,"My number must be the largest; if S turns negative, it’s bad, so I want positive but safe. If someone picks ≤9, chance of negative S decreases, my number is higher → good. If ≥11, chance of negative S rises, I’d win."
+9,"Multiplying the resulting S by 9 guarantees the highest score, assuming the sum of the other four numbers is below 9."
+5,"Optimistically, I assume the other 4 will pick 5. With everyone choosing the same, S = 50-5x → score = x(50-5x). Maximum for x=5."
+10,"Big multiplier, slightly lower than 5."
+-1,"I pick a negative number, hoping others pick too high numbers like 20, 15, 10, 10 → S negative → only my x*S positive."
+8,Seems not too high (so S not negative) and not too low (maximize multiplication).
+-2,"Most people will pick high numbers (>12) or at least one very high → S negative → only negative numbers yield positive results. To avoid someone else giving -1, I pick -2."
+5,"If I pick high, I risk negative outcome → big loss. Choosing 5: if others pick low randomly, I get high multiplier. Everyone wants a high score → chance of luck."
+-3,If total exceeds 50 → S negative → my score then ≥150.
+0,"Positive and negative numbers are unpredictable, depend on others’ choices."
+10,I checked the most average outcome.
+-20,I assume others will sum >70 → negative × negative → positive. Others likely won’t pick negative.
+9,"If subtraction result is negative → better to pick smallest number; if positive → pick largest. 50/5=10, so optimal 5–14."
+10,If everyone picks 10 → no gain. Picking lower → risk losing; picking 10 seems best strategy without knowing others.
+9,"My score = x1*(50-P-x1), P = sum of others. Quadratic function max: x1 = (50-P)/2. If others pick 8 → closest integer 8. I pick 9 → score 81."
+-3,I suspect others will pick high positive numbers → total may go negative → only negative × negative gives high positive result.
+7,"If all values are same, 5 is optimal. Hoping others realize this, multiplying by 7 gives higher than 5+10."
+5,"Assuming others reason rationally, they pick ~5. Some may pick higher → 5 is still ok."
+10,"Taking 4 random people: low chance of negative or non-integer numbers. Most will pick 0–50 → avoid negative. Initial instinct: 7, then others add slightly → pick 10 to be safe."
+20,I assume that the rest of the players might give a number smaller than mine
+5,"If everyone roughly understands this game, they would want to minimize the loss from subtraction (50 minus x1 minus x2 minus x3 minus x4) while at the same time maximizing the multiplication. Therefore, by trial and error, I arrived at the number 5."
+4,"I want to give the smallest number possible so that I lose as little as possible in the subtraction. On the other hand, I want to give a large number to gain more from multiplication. I figured that people playing this game would also want to maximize their numbers and would think along similar lines. Therefore, I need to choose a small number to subtract little from the initial amount. This number cannot be too small; it should be larger than the average choice (to win and have more than the opponents), which is why I chose 4."
+1,"Very interesting tasks. Ultimately, I think 1 is the best choice, hoping that the sum of the points of the other four players will be greater than 50. Then the difference between 50 and the sum of all points will be less than 0. Multiplying the result by my 1 will bring me closest to the target."
+8,"This is a number roughly in the safe middle range, where even if players play 10 or 11, they will take more points than me, and those who safely play 1 or 2 will not surpass my score threshold."
+-5,"I expect that the other participants, wanting to gain as many points as possible, will choose numbers such that the sum of four of them exceeds 55 points, which would give a negative result. Multiplying that negative result by my -5 will give a positive score, which could be quite large depending on the other players."
+14,"This is a small enough number so that the difference will not be negative, and the product will be large."
+25,"Since 50 is the threshold from which we subtract numbers, and then we multiply the result by the chosen number to get the largest possible outcome, to achieve this goal we cannot exceed half of the number 50."
+10,"The number 10 gives a chance for the maximum result, of course assuming that all other players do not do the same."
+5,"If everyone gives the same number, which is 5, the outcome should be the highest (25x25)."
+15,"I only considered situations where I have a chance for the highest result (average choice of opponents 1-8). I think opponents don’t tend to choose ""1"", so the best average choice will be 15."
+-1,"Probably the other people will choose a large number to win. I guess it will go below zero. Then my multiplier would be, for example, -1*-10. By giving the smallest negative number, I will have more than anyone who gave a positive number. It’s worse if they give small numbers."
+10,"I assume that all participants’ numbers will be around 10, because everyone will assume that with such values we approach zero or negative values. If that happens, no one will achieve a higher score. If everyone gives more than 10, I will have the best outcome."
+5,"I want to get the smallest possible number after subtracting the sum, and the higher the number we multiply by my number, the better. My head is spinning from thinking about it."
+9,Because it will give the highest result if each of the 5 players chooses 5.
+5,"If the other players also choose four, the result will still be high."
+5,"I assume that other players will want to cooperate to achieve the highest fair result, and everyone will answer with 5."
+9,"I chose 9 because the other players also want to get the maximum result. If everyone chose a number greater than 9, the sum would be 0 or negative, which is not the goal. At the same time, multiplying at the end by my number should make it as large as possible, so 9 seems like the optimal solution."
+1,"I assume that the other four players will want to give the highest numbers so that later they have a higher multiplication factor. So there is a risk that the subtraction result will be less than zero. Then multiplying by 1 will give the highest possible outcome. PS. I think that if there were a range of allowed numbers, the decision would be easier and the risk smaller, so less adrenaline ;)"
+10,"Initially I considered giving a large number. I thought about choosing 25 to be in the middle, the optimal point when calculating results regardless of the final sum S. However, with four other players, 25 plus the sum of other players’ numbers could easily exceed 50. If the sum of the five chosen numbers exceeds 50, we enter negative numbers, and the person who chose the smallest number wins. Therefore, it is better to avoid higher numbers, but if it happens, I want to be in a better position. Later I thought about 15, but it still seemed too large. I believe that mostly numbers from 1 to 10 would be chosen, although I immediately started thinking about high numbers, so I have to account for the fact that someone else might think the same way. Therefore, I think it is better to choose a smaller number rather than a larger one, but definitely bigger than 9 to win in a situation where everyone chooses numbers from 1 to 10. I also thought about giving a negative number, but that would only be useful if the sum of the other four people exceeds 50 plus my negative number. I think that is unlikely (at least the first time playing). Much depends on who I play with and how many times I’ve already played with that person. I don’t know if the game allows negative numbers. On one hand, I lack that range of possible numbers, on the other hand, if it were stated, everyone would immediately realize it, which would reduce my advantage."
+0,"I choose zero because I don’t know what the other four people know. Are they giving any number, or do they follow the same rules as me (i.e., their goal is to get the highest score)? The number zero guarantees that my result will not be negative. In any other case, I could get a negative result. The zero result places me almost in the middle of the ranking (there are equal numbers of positive and negative numbers)."
+15,"If the number is chosen in a specific order, depending on my position I would have to estimate what the others would give and take into account what has already been chosen. However, if all participants choose numbers simultaneously, I would choose 15, because if the final result is positive, I would definitely get a fairly large score, which would allow me to win. If the result were negative, multiplying by my number would make me one of the participants not ending in the last places."
+5,"Assuming that everyone chooses the same number, 5 gives the highest result (125)"
+1,"I thought it would be safest to give a small number to increase the chance that the sum S drops to zero or below, which would result in a loss of points for others, or even a negative result for me, maximizing my relative position."
+8,Balance.
+10,"If everyone gives 10, the result will be 0, which gives a tie. If everyone gives more than 10, I multiply the negative S by the smallest negative number, so I end up with the highest score. If everyone gives less than 10, I have the largest multiplier. If results are mixed, everyone has equally small chances. I assume everyone will aim for numbers below 10 to avoid negative S."
+9,"In general, people usually think of 7 first, so I will give 9 because 50 - 4*7 = 32; 32 - 9 = 23; 23*9 > 23*7. That’s basically it."
+9,"9 is the largest possible multiplier. Although a higher result could be achieved with smaller x (so larger S), I assume I do not know the numbers of other players."
+8,"Depending on the participants we play with, this number should vary. An unfamiliar person might choose 10 or more, which would lead to a negative unknown S. Choosing 8 in case S = -1 gives the smallest possible result."
+10,"I put all the data and variables into Desmos, but there were too many variables. I assumed all other players would choose the same number, and it turned out I would always get the highest score by giving 10."
+23,"I checked a few numbers in my head and noticed that after 23, the result stops increasing. However, I didn’t spend much time on this problem, so I’m not sure if the outcome is correct."
+4,"I wrote the function formula, and then I plotted it."
+-1,"I guess the other participants might choose numbers whose sum significantly exceeds 50 because they would want to maximize points. If that happens, being the only one with a negative number x, I would have a positive result. If the others think the same way, then having a number close to zero like -1 would also give me the highest score, because -1 * positive S is greater than -10 * S."
+-1,"I guess that each person will give more than 10, and I hope the sum after subtraction will be negative. Then I would be the only one with a positive number."
+25,"The statistical distribution is around 0, so S ≈ 50 - 0 - 25, and no one wants to give a number with a high absolute value because statistically it would lose. So deviations are small, and the result is usually positive. But if I gave a number closer to 50, there would be a higher chance that S becomes negative. If I gave a number closer to 0, someone else might give a larger x, resulting in a higher x*S for S > 0."
+0,"We cannot be sure of the sign of our result, so we want to guarantee non-negativity, which is why we take 0."
